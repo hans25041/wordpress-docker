@@ -2,10 +2,12 @@
 
 ## Setup
 
+
+
 1. Make sure you have `docker` version *1.12.1* or higher and `docker-compose` *1.8.0* or higher installed.
 
-    $ docker --version
-    $ docker-compose --version
+        $ docker --version
+        $ docker-compose --version
 
   See the installation steps below if either is missing.
 
