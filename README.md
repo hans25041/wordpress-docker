@@ -10,21 +10,21 @@
         $ docker-compose --version
         
 2. Build the wordpress and mariadb containers:
-3. 
+
         $ docker-compose build
 
 
 3. Run the server:
 
-    $ docker-compose up
+        $ docker-compose up
 
-  The server is now available at localhost:8080
+   The server is now available at localhost:8080
 
 4. Give yourself ownership of the wp-content directory.
 
-    $ sudo chown -R $USER:www-data wp-content
+        $ sudo chown -R $USER:www-data wp-content
 
-  The wp-content directory is now editable within blog.
+   The wp-content directory is now editable within blog.
   
 
 
