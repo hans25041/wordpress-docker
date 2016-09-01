@@ -8,12 +8,10 @@
 
         $ docker --version
         $ docker-compose --version
-
-  See the installation steps below if either is missing.
-
+        
 2. Build the wordpress and mariadb containers:
-
-    $ docker-compose build
+3. 
+        $ docker-compose build
 
 
 3. Run the server:
