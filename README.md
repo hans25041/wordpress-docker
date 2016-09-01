@@ -2,13 +2,13 @@
 
 ## Setup
 
-
-
 1. Make sure you have `docker` version *1.12.1* or higher and `docker-compose` *1.8.0* or higher installed.
 
         $ docker --version
         $ docker-compose --version
-        
+
+   If either program is missing, go to the installation steps listed below.
+
 2. Build the wordpress and mariadb containers:
 
         $ docker-compose build
